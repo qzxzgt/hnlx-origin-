@@ -1,0 +1,27 @@
+.outer{
+    width:100% ;
+    background-color:#E2E2E2;
+    overflow:hidden;
+}
+.inner{
+    height:1836px;
+    width:1200px ;
+    background-color:#ffffff;
+    margin: 30px 75px;
+}
+.outer .inner .Company-profile{
+    width:1202px ;
+    height:1000px;
+    margin: 0 40px ;
+    padding-top:5px;
+}
+.outer .inner .Company-profile{
+    font-size:18px;
+    box-sizing: border-box;
+    color: #696969;
+    line-height: 1.6;
+}
+img{
+    height:310px;
+    width:709px;
+}

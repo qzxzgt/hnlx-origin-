@@ -1,0 +1,112 @@
+
+#outer {
+    width: 100%;
+    background-color: #E2E2E2;
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+#outer .block {
+    width: 600px;
+    height: 290px;
+    background-color: white;
+    float: left;
+    margin: 50px 25px 10px 25px;
+    position: relative;
+}
+
+#outer .block .position-name {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    margin-bottom: 10px;
+    height: 35px;
+    overflow: hidden;
+    font-size: 21px;
+    color: #333;
+    font-weight: bold
+}
+
+#outer .block .time {
+    font-size: 14px;
+    color: #696969;
+    position: absolute;
+    top: 77px;
+    left: 40px;
+}
+
+#outer .block .img {
+    width: 155px;
+    height: 104px;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    overflow: hidden;
+
+}
+
+#outer .block .img img {
+    width: 155px;
+    height: 104px;
+
+}
+
+#outer .block a.more {
+    display: none;
+    width: 135px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 40px;
+    color: #333333;
+    font-size: 14px;
+    position: absolute;
+    bottom: 40px;
+    left: 225px;
+    letter-spacing: 2px;
+}
+
+#outer .block a.more:hover {
+    background-color: #0F4876;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.block .description {
+    width: 320px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    color: #999;
+    position: absolute;
+    top: 110px;
+    left: 225px;
+}
+
+.memorabilia-index {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.memorabilia-index a {
+    display: inline-block;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #999;;
+    color: #fff;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+.memorabilia-index .home-page,
+.memorabilia-index .last-page {
+    width: 50px;
+}
+.memorabilia-index a:hover {
+    background-color: rgb(51, 51, 51);
+}

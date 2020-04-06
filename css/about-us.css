@@ -1,0 +1,41 @@
+main{
+    width: 100%;
+    height: 1240px;
+}
+/*----内容的样式-----start*/
+.outer{
+    height:1120px;
+    width:100% ;
+    background-color:#E2E2E2;
+    overflow:hidden;
+}
+.inner{
+    height:1000px;
+    width:1200px ;
+    background-color:#ffffff;
+    margin: 30px 75px;
+}
+.outer .inner .Company-profile{
+    width:1202px ;
+    height:1000px;
+    margin: 0 40px ;
+    padding-top:5px;
+}
+.outer .inner .Company-profile span{
+    color: rgb(15, 71, 117);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.8;
+
+}
+.outer .inner .Company-profile p{
+    font-size:18px;
+    color: #696969;
+    line-height: 1.6;
+}
+.outer .inner .Company-profile img{
+    height:487px;
+    width:1122px;
+}
+/*----内容的样式-----end*/
+

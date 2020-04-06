@@ -1,0 +1,270 @@
+/*--------版心--------------*/
+body{
+    background: rgb(226, 226, 226);
+}
+.w{
+    width: 1210px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*-------头部样式------start*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 114px;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 70px;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.header .nav li a {
+    color: #333;
+
+}
+.header ul.left-nav > li{
+    margin-right: 55px;
+    position: relative;
+    display: inline-block;
+    top: 40px;
+}
+.header ul.right-nav > li {
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+    top: 40px;
+}
+.header ul.left-nav > li.on:after, .header ul.right-nav > li.on:after{
+    content: '';
+    position: absolute;
+    width: 99%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color:black;
+}
+.header ul.left-nav > li a:hover, .header ul.right-nav > li a:hover {
+    color: #0F4876;
+}
+.header ul.left-nav > li > a, .header ul.right-nav > li > a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.header ul.left-nav > li > ul.sub a:hover, .header ul.right-nav > li > ul.sub a:hover{
+    color: white;
+    margin-left:2px;
+}
+
+
+.nav ul.sub {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background-color: rgba(23, 24, 25, .8);
+    padding: 4px 20px;
+    border-top: 3px solid #333;
+}
+
+.nav .sub li {
+    text-align: left;
+    border-bottom: 1px solid rgba(111, 111, 111, .3);
+}
+.nav .sub li:last-child{
+    border-bottom: none;
+}
+.nav .sub li a {
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #bbb;
+}
+
+header .logo {
+    position: absolute;
+    width: 420px;
+    height: 114px;
+    line-height: 80px;
+    top: 0;
+    left: 41%;
+    text-align: center;
+}
+
+.header .logo h1 a {
+    display: block;
+    width: 300px;
+    height: 114px;
+    background: url("../images/20170711091955332.png") no-repeat 0 0;
+    color: #333;
+    border: none;
+    font-size: 0;
+}
+
+.zyw {
+    width: 80px;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 5px;
+    margin-top: 44px;
+    background: #0F4876;
+    padding: 5px 0;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.zyw a {
+    color: #fff;
+}
+
+/*-------头部样式------end*/
+
+.nothing::before{
+    content: '';
+    display: block;
+    height: 114px;
+    width: 100%;
+}
+
+/*----小目录的样式-----start*/
+.middle-nav{
+    height: 65px;
+    width: 100%;
+    background-color: #0f4876;
+    color:  #B7C8D6;
+}
+.middle-nav .catg_name{
+    height: 65px;
+    /*background: red;*/
+    margin: 0 auto;
+    text-align: center;
+}
+.middle-nav .catg_name a {
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 65px;
+    margin: 0 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    color: rgba(255,255,255,0.7);
+}
+.middle-nav .catg_name a:hover{
+    color: rgb(255,255,255);
+}
+.middle-nav .catg_name a.active{
+    color: rgb(255,255,255) !important;
+}
+.middle-nav .catg_name a.active:after{
+     content: '';
+     position: absolute;
+     width: 99%;
+     height: 1px;
+     left: 0;
+     bottom: 20px;
+    background-color: #fff;
+}
+/*----小目录的样式-----end*/
+
+
+
+/*-------底部样式------start*/
+.footer {
+    height: 485px;
+    width: 100%;
+    background-color: #0f4876;
+    padding-top:95px;
+    box-sizing: border-box;
+}
+.foot-content {
+    width: 1209px;
+    height: 300px;
+    /*background: red;*/
+    border-bottom: 1px solid rgba(222, 222, 222, .2);
+    margin: auto 70px;
+    position: relative;
+}
+
+.foot-content .foot-box {
+    width: 29%;
+    display: inline-block;
+    line-height: 26px;
+    letter-spacing: 1px;
+    vertical-align: top;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.foot-content .foot-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.foot-content .foot-box i {
+    color: #bbb;
+    display: block;
+    font-style: normal;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+.foot-content .foot-box dl {
+    position: absolute;
+    right: 405px;
+    bottom: 85px;
+}
+
+.foot-content .foot-box dt {
+    color: #eee;
+}
+
+.foot-content .foot-box dd {
+    color: #888;
+    font-size: 14px;
+}
+
+.foot-content .foot-box ul {
+    position: absolute;
+    right: 305px;
+    bottom: 85px;
+    color: #888;
+    font-size: 14px;
+}
+
+.foot-content .foot-box .special {
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.foot-content .footer-down {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    font-size: 14px;
+    color: #eee;
+}
+
+.foot-content .footer-down a {
+    display: inline-block;
+    color: #8e8e8e;
+}
+
+/*-------底部样式------end*/

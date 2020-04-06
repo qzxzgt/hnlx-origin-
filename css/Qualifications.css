@@ -1,0 +1,33 @@
+.outer{
+    height:1120px;
+    width:100% ;
+    background-color:#E2E2E2;
+    overflow:hidden;
+}
+.inner{
+    height:600px;
+    width:1200px ;
+    background-color:#ffffff;
+    margin: 30px 75px;
+}
+.outer .inner .Company-profile{
+    margin: 0 40px ;
+    padding-top:5px;
+}
+.outer .inner .Company-profile span{
+    color: rgb(15, 71, 117);
+    font-size: 24px;
+    font-weight: 700;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+.outer .inner .Company-profile ul li{
+    font-size:18px;
+    box-sizing: border-box;
+    color: #696969;
+    line-height: 1.6;
+}
+img{
+    height:290px;
+    width:1100px;
+}
